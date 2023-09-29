@@ -12,4 +12,4 @@ RUN mvn test -X
 
 RUN mvn package
 
-CMD ["mvn" , "tomcat7:run"]
+CMD ["mvn" , "tomcat9.0.80:run"]
